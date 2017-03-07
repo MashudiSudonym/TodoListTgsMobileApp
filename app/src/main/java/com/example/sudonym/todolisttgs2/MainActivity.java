@@ -31,8 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 android.R.layout.simple_list_item_1,
                 items);
         lvItems.setAdapter(itemsAdapter);
-        items.add("Item Pertama");
-        items.add("Item Kedua");
+//        items.add("Item Pertama");
+//        items.add("Item Kedua");
 
         // Setup remove listener method call
         setupListViewListener();
